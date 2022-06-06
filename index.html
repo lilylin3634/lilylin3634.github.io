@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<title>This is liylin's cv</title>
+		<link rel="stylesheet" href="mystyle.css">
+		<style>
+			body {background-color: #FFFF00;}
+		</style>
+	</head>
+	<body>
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQevF8ewS0wcgPXKDIFCYaL632z1HzcCwZoiw&usqp=CAU" alt="This is the logo" width="10%" >
+		<div>
+			<h1>Please kick the button to start</h1>
+			<button onclick="question()">start</button>
+			<p id="result"></p>
+			<hr color="AE57A4" size="5" />
+		</div>
+		<script>
+			function question() {
+				var mag; //store massage
+				var user_name = prompt("Please enter your name:", "Lin lily");
+				
+				if (user_name == null || user_name == "") {
+					mag = "Invaild input";
+				} else {
+					mag = "Hi " + user_name + ", welcome lily's blog!";
+				}
+			document.getElementById("result").innerHTML = mag
+			
+			}
+		</script>
+		
+		<div>
+			<h1 class='line1'><b>目錄</b></h1>
+			<ol>
+				<li>簡介</li>
+				<br> 
+				<li>特色</li>
+				<br>
+				<li>夢想</li>
+				<br>
+				<hr color="AE57A4" size="5" />
+			</ol>
+		</div>
+		<div>
+		<table border="1" align="center">
+			<caption class='line1'><strong>簡介</strong></caption>
+		
+			<colorgroup>
+				<col span="1" style="background-color:#AEE1CD">
+				<col style="background-color:#FFE681">
+				<col style="background-color:#FF8F59">
+			</colorgroup>
+		
+			<tr>
+				<th>綽號</th>
+				<th>興趣</th>
+				<th>說明</th>
+				
+			</tr>
+			<tr>
+				<td>睡豬</td>
+				<td>睡覺</td>
+				<td>每天平均睡10小時</td>
+			</tr>
+			<tr>
+				<td>吃貨</td>
+				<td>吃東西</td>
+				<td>一天吃5餐</td>
+			</tr>
+			<tr>
+				<td>過動</td>
+				<td>運動</td>
+				<td>羽球熱愛者</td>
+			</tr>
+			
+		</table>
+		<hr color="AE57A4" size="5" />
+		</div>
+
+		<div>
+			<h2 class='line1'>專長</h2>
+			<ul>
+				<li>行銷經營社群媒體</li>
+				<li>投資分析</li>
+				<li>英文能力精通</li>
+				<li>審計記帳</li>
+			</ul>
+		</div>
+		
+		<div>
+			<h2 class='line1'>dream of my own resturant</h2>
+			<a href="#"
+				onclick="open('https://lilyfox.000webhostapp.com/Delicious/','lilyfox resturant', config='height=300,width=200');">See more</a>
+		</div>
+	</body>
+</html>
