@@ -1,6 +1,9 @@
 img {
 	float:left
 }
+div {
+	text-align:center;
+}
 
 a:link {
 	color:green;
