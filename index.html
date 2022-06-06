@@ -2,17 +2,21 @@
 	<head>
 		<title>This is liylin's cv</title>
 		<link rel="stylesheet" href="mystyle.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<style>
-			body {background-color: #FFFF00;}
+			body {background-color: #AE57A4;}
 		</style>
+		<script>
+			console.log('[Information] cv data');
+		</script>
 	</head>
 	<body>
-		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQevF8ewS0wcgPXKDIFCYaL632z1HzcCwZoiw&usqp=CAU" alt="This is the logo" width="10%" >
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQevF8ewS0wcgPXKDIFCYaL632z1HzcCwZoiw&usqp=CAU" alt="This is the logo" width="15%" >
 		<div>
 			<h1>Please kick the button to start</h1>
 			<button onclick="question()">start</button>
 			<p id="result"></p>
-			<hr color="AE57A4" size="5" />
+			<hr color="AE57A4" size="10" />
 		</div>
 		<!--
 		img 設置左邊
@@ -33,20 +37,21 @@
 		</script>
 		
 		<div>
-			<h1 class='line1'><b>目錄</b></h1>
+			<h1 class='line1'><img src="C:\Users\tian\Desktop\images/icon.jpg" width="20%"><b>目錄</b></h1>
 			<ol>
-				<li>簡介</li>
+				<li> <i class="material-icons" style="font-size:48px;color:red">filter_1</i>簡介</li>
 				<br> 
-				<li>特色</li>
+				<li> <i class="material-icons" style="font-size:48px;color:red">filter_2</i>專長</li>
 				<br>
-				<li>夢想</li>
+				<li> <i class="material-icons" style="font-size:48px;color:red">filter_3</i>夢想</li>
 				<br>
 				<hr color="AE57A4" size="5" />
 			</ol>
 		</div>
 		<div>
+		<h1 class='line1'>簡介</h1>
 		<table border="1" align="center">
-			<caption class='line1'><strong>簡介</strong></caption>
+			
 		
 			<colorgroup>
 				<col style="background-color:#AEE1CD">
@@ -81,7 +86,7 @@
 		</div>
 
 		<div>
-			<h2 class='line1'>專長</h2>
+			<h1 class='line1'>專長</h1>
 			<ul>
 				<li>行銷經營社群媒體</li>
 				<li>投資分析</li>
@@ -94,7 +99,7 @@
 		自型shadow
 		-->
 		<div>
-			<h2 class='line1'>dream of my own resturant</h2>
+			<h1 class='line1'>dream of my own resturant</h1>
 			<a href="#"
 				onclick="open('https://lilyfox.000webhostapp.com/Delicious/','lilyfox resturant', config='height=300,width=200');">See more</a>
 		</div>
